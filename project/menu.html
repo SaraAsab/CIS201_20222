@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="style.js"></script> 
+
+<title>Menu</title>
+</head>
+<body>
+
+<div class="menuo" id="menu">
+  <div class="mo">
+  
+    <h1 class="ma" id="Changable">THE MENU</h1>
+    <button onclick="ChangeColor()"> Click to change color </button>
+    <div class="m2">
+      <a href="#Sushi Roll" onclick="openMenu(event, 'Sushi Roll');" id="myLink">
+        <div class="oi">Sushi Roll</div>
+      </a>
+      <a href="#Salad" onclick="openMenu(event, 'Salad');" id="myLink">
+        <div class="oi">Salads</div>
+      </a>
+      <a href="#Noodles and Rices" onclick="openMenu(event, 'Noodles and Rices');" id="myLink">
+        <div class="oi">Noodles and Rice</div>
+      </a>
+    </div>
+
+    <div class="hidden" id="Sushi Roll" class="sus">
+	<img src="food1.png">
+      <h1><b>Lava Roll</b> <span class="la">$44</span></h1>
+      <p class="jo">Seaweed,Rice,Shrimp,Cheese,Lava Sauce , Caviar, Avocado , Green onion , Crispy </p>
+	
+      <hr>
+	  
+    <img src="food2.png">
+      <h1><b>Fuji roll</b> <span class="la">$15.50</span></h1>
+      <p class="jo">Crab, Soy sheet,Avocado,Shrimp,Special Sauce</p>
+	
+      <hr>
+      <img src="food3.png">
+      <h1><b>Yoishi Explosion</b> <span class="la">$17.00</span></h1>
+      <p class="jo">Tempura ,Crab, Cucumber, Soya Sheet, Rice, Sweet Sauce, Spicy Sauce, Crispy Flakes</p>
+      <hr>
+      <img src="food4.png">
+      <h1><b>Tempura Roll</b> <span class="la">$16.50</span></h1>
+      <p class="jo">Tempura, Seaweed , Rice , Sesame</p>
+      <hr>
+       <img src="food5.png">
+      <h1><b>Dynamite Volcano Roll</b> <span class="ti">Hot!</span><span class="jo">$20.00</span></h1>
+      <p class="jo">Tempura, Cucumber ‚Avocado, Crab, Mayonnaise , Sesame, Shrimp, Spicy mayo, Green onions, Sweet sauce</p>
+      <hr>
+       <img src="food6.png">
+      <h1><b>Salamon Roll</b> <span class="tag">New</span><span class="jo">$21.50</span></h1>
+      <p class="jo">Fresh Salmon, Seaweed , Rice , Sesame</p>
+	  <hr>
+	  <img src="food7.png">
+	  <h1><b> Spicy Calfornia </b> <span class="tag">Popular</span> <span class="la">$13.50</span></h1>
+      <p class="jo">Rice, Seaweed , Crab , Avocado, Cucumber, Mayo, Spicy Mayo, Sweet Sauce , Raspberry, Sesame</p>
+      <hr>
+	  <img src="food8.png">
+	   <h1><b>Teriyaki Tempura Roll</b> <span class="la">$14.50</span></h1>
+      <p class="jo">Tempura, Seaweed , Rice , Sesame , Teriyaki Sauce</p>
+      <hr>
+	  <img src="food9.png">
+	   <h1><b>Fantasy tempura Roll</b> <span class="la">$11.00</span></h1>
+      <p class="jo">Tempura, Crab ‚Seaweed , Rice, „Spicy Sauce ,Avocado, Sweet Sauce, Garlic Sauce, Crispy, Quinoa</p>
+      <hr>
+	 </div>
+	
+   
+    <div class="hidden" id="Salad" class="sol">
+	<img src="food10.png">
+      <h1><b> Crispy Crab Salad </b> <span class="tag">Popular</span> <span class="la">$13.50</span></h1>
+      <p class="jo">Crispy Flex , Cucumber , Crab , Spicy Sauce , Garlic Sauce, Sesame</p>
+      <hr>
+      <img src="food11.png">
+      <h1><b>Crab Salad</b> <span class="la">$14.50</span></h1>
+      <p class="jo">Tempura, Seaweed , Rice , Sesame , Teriyaki Sauce</p>
+      <hr>
+      <img src="food12.png">
+      <h1><b>Chicken Salad</b> <span class="la">$11.00</span></h1>
+      <p class="jo">Tempura, Crab ‚Seaweed , Rice, „Spicy Sauce ,Avocado, Sweet Sauce, Garlic Sauce, Crispy, Quinoa</p>
+      <hr>
+    <img src="food13.png">
+      <h1><b>Salmon Salad </b> <span class="la">$25.50</span></h1>
+      <p class="jo">Salmon, shrimp, lobster, garlic</p>
+    </div>
+
+
+    <div class="hidden" id="Noodles and Rices" class="pi">
+      <h1><b>Shrimp Noodles</b> <span class="tag">Seasonal</span><span class="la">$5.50</span></h1>
+      <p class="jo">Noodles ‚Shrimp , Cabbage , Carrots , Mushroom, Bell pepper Broccoli, Garlic, Baby corn , Black pepper powder</p>
+      <hr>
+   
+      <h1><b>Vegi Noodles</b> <span class="la">$8.50</span></h1>
+      <p class="jo">Noodles , Cabbage, Carrots ,Mushroom , Bell pepper, Garlic, Broccoli, Baby corn , Black pepper</p>
+      <hr>
+      
+      <h1><b>Chicken Noodles</b> <span class="la">$9.50</span></h1>
+      <p class="jo">Noodles , Chicken, Cabbage , Carrots , Mushroom, Bell pepper, Broccoli, Garlic, Baby corn, Black pepper powder</p>
+      <hr>
+      
+      <h1><b>Japanese Vegi Fried rice </b> <span class="la">$10.50</span></h1>
+      <p class="jo">Rice, Egg, Mushroom, Carrot, Cabbage , Red pepper, Green onion, Soya sauce, Garlic</p>
+    </div>
+	<hr>
